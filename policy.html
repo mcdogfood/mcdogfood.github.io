@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A layout with a side menu that hides on mobile, just like the Pure website.">    
+  <title>Land South of Church Fenton</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="css/layouts/side-menu.css">
+  <!--<![endif]-->
+</head>
+<body>
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">Home</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-selected"><a href="policy.html" class="pure-menu-link">Policy</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Flooding</a></li>
+
+                <li class="pure-menu-item menu-item-divided">
+                    <a href="#" class="pure-menu-link">Housing</a>
+                </li>
+
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Heritage</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Land South of Church Fenton</h1>
+            <h2>Urgent appeal to residents objecting this application</h2>
+        </div>
+
+        <div class="content">
+            <!--
+            <h2 class="content-subhead">How to use this layout</h2>
+            <p>
+                To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
+            </p>
+            -->
+            <h2 class="content-subhead">Policy Planning Violations</h2>
+            <p>
+                The application number is 2017/0736/REMM and it is going to Planning Committee on Wednesday the 5th of February at 2pm. Details <a href='https://democracy.selby.gov.uk/ieListDocuments.aspx?CId=135&MId=1651&Ver=4'>here</a>. Please lobby the committee - make sure you copy in all of them, and please turn up and show your objection.
+            </p>
+
+<div class="pure-g">
+    <div class="pure-u-1-4">
+        <img class="pure-img-responsive" src="img/church_night.jpg" alt="Church at night">
+    </div>
+    <div class="pure-u-1-4">
+        <img class="pure-img-responsive" src="img/church_field.jpg" alt="Church From the Field">
+    </div>
+    <div class="pure-u-1-4">
+        <img class="pure-img-responsive" src="img/church_snow.jpg" alt="Church in Snow">
+    </div>
+    <div class="pure-u-1-4">
+        <img class="pure-img-responsive" src="img/road_night.jpg" alt="The Road at Night">
+    </div>
+</div>
+
+            <h2 class="content-subhead">Flood risk</h2>
+            <p>
+                The outline was granted in 2015. Since then the Flood Zone has changed from Flood Zone 1, to Flood Zone 2, making flooding more likely in this area. Selby have insisted that they don't need to re-assess the Flood Risk.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="js/ui.js"></script>
+</body>
+</html>
